@@ -262,11 +262,6 @@ a {
 	transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 }
 
-a:hover {
-	color: #ef8376;
-	border-bottom-color: transparent;
-}
-
 sub {
 	position: relative;
 	top: 0.5em;
@@ -2174,7 +2169,7 @@ button,
 	position: relative;
 	display: inline-block;
 	background: #000000;
-	color: rgb(197, 187, 187);
+	color: rgb(243, 233, 233);
 	text-align: center;
 	border-radius: 0.5em;
 	text-decoration: none;
