@@ -238,7 +238,7 @@ h3 {
 
 h4 {
 	font-size: 1em;
-	margin: 0 0 0.25em 0;
+	/* margin: 0 0 0.25em 0; */
 }
 
 strong,
@@ -285,7 +285,7 @@ ul,
 ol,
 dl,
 table {
-	margin-bottom: 1em;
+	/* margin-bottom: 1em; */
 }
 
 p {
@@ -301,7 +301,7 @@ hr {
 	display: block;
 	border: 0;
 	top: 4.5em;
-	margin-bottom: 9em;
+	/* margin-bottom: 9em; */
 	height: 6px;
 	border-top: solid 1px rgba(128, 128, 128, 0.2);
 	border-bottom: solid 1px rgba(128, 128, 128, 0.2);
@@ -1874,13 +1874,13 @@ article.special>footer {
 }
 
 header {
-	margin: 0 0 1em 0;
+	/* margin: 0 0 1em 0; */
 }
 
 header>p {
 	display: block;
 	font-size: 1.5em;
-	margin: 1em 0 2em 0;
+	/* margin: 1em 0 2em 0; */
 	line-height: 1.5em;
 	text-align: inherit;
 }
@@ -1901,17 +1901,20 @@ footer {
 .image img {
 	display: block;
 	width: 100%;
+	height: 100%;
 }
 
 .image.fit {
 	display: block;
 	width: 100%;
+	height: 100%;
 }
 
 .image.featured {
 	display: block;
 	width: 100%;
 	margin: 0 0 4em 0;
+	height: 100%;
 }
 
 .image.left {
@@ -2048,6 +2051,10 @@ ul.icons li a {
 }
 
 ul.icons li a:hover {
+	color: #ef8376;
+}
+
+.contacts:hover {
 	color: #ef8376;
 }
 
@@ -2237,8 +2244,8 @@ header .icon.circled {
 
 .wrapper {
 	background: #fff;
-	margin: 0 0 2em 0;
-	padding: 3em 0 3em 0;
+	/* margin: 0 0 2em 0; */
+	/* padding: 3em 0 3em 0; */
 }
 
 .wrapper.style2 {
@@ -2588,9 +2595,6 @@ body.homepage.is-preload #header:after {
 .carousel {
 	position: relative;
 	overflow: hidden;
-	padding: 2em 0 2em 0;
-	margin-top: 1em;
-	margin-bottom: 1em;
 }
 
 .carousel .forward,
@@ -2817,13 +2821,9 @@ body.homepage.is-preload #header:after {
 
 	/* Carousel */
 
-	.carousel {
-		padding: 1.25em 0 1.25em 0;
-	}
-
 	.carousel article {
 		width: 18em;
-		margin: 0 1em 0 0;
+		/* margin: 0 1em 0 0; */
 	}
 
 }
@@ -3134,7 +3134,7 @@ body.homepage.is-preload #header:after {
 	/* Wrapper */
 
 	.wrapper {
-		padding: 1em 1em 1em 1em;
+		/* padding: 1em 1em 1em 1em; */
 	}
 
 	/* Header */
@@ -3160,7 +3160,7 @@ body.homepage.is-preload #header:after {
 
 	#header hr {
 		top: 1em;
-		margin-bottom: 2.5em;
+		/* margin-bottom: 2.5em; */
 	}
 
 	body.homepage #header {
@@ -3210,22 +3210,18 @@ body.homepage.is-preload #header:after {
 
 	/* Carousel */
 
-	.carousel {
-		padding: 0.5em 0 0.5em 0;
-	}
-
 	.carousel .reel {
-		padding: 0 0.5em 0 0.5em;
+		/* padding: 0 0.5em 0 0.5em; */
 	}
 
 	.carousel article {
 		width: 14em;
-		padding-bottom: 2em;
-		margin: 0 0.5em 0 0;
+		/* padding-bottom: 2em; */
+		/* margin: 0 0.5em 0 0; */
 	}
 
 	.carousel article .image {
-		margin-bottom: 1em;
+		/* margin-bottom: 1em; */
 	}
 
 }
